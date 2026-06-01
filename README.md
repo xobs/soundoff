@@ -1,6 +1,6 @@
 # Soundoff
 
-Turn off power to the USB-A port when the connected host is in suspend.
+Turn off power and data to the USB-C port when the connected host is in suspend.
 
 ![Isometric view](Soundoff-iso.png)
 
