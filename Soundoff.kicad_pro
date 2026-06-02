@@ -62,10 +62,10 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.25,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.125,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.25,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -107,7 +107,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -213,6 +213,7 @@
         0.0,
         0.127,
         0.15,
+        0.2,
         0.3,
         0.349512,
         0.5,
@@ -264,7 +265,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "V2"
+      "sch_revision": "V3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -743,7 +744,7 @@
         "uuid": "38683856-39c7-41fc-8c5f-ab39b7666b4b"
       }
     ],
-    "used_designators": "#FLG1-2,R9,C4-6,C14-15,Y1,#PWR8,#PWR17-20,#PWR23-25,#PWR27,#PWR30-31,#PWR33-41,U2-3,P1-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
